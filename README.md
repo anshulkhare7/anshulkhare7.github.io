@@ -8,6 +8,10 @@
     display: none;
 }
 
+.tc-tags-wrapper{ 
+    display: none;
+}
+
 [title="More actions"]{ 
     display: none; 
 }
@@ -15,8 +19,12 @@
 [title="Edit this tiddler"]{ 
     display: none; 
 }
+
+h2[title~="This is a system tiddler"]{ 
+    display: none; 
+}
 ```
 4. Go to **More** ($:/core/ui/SideBar/More)
 5. Go to **Shadows** 
 6. Find _$:/plugins/rmnvsl/krystal/headertools_
-7. Edit this shadow tiddler and remove all the buttons except **All**
+7. In this shadow tiddler, add style="display:none" for all the buttons except **All**
