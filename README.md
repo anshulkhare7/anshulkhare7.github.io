@@ -20,7 +20,7 @@
     display: none; 
 }
 
-h2[title~="This is a system tiddler"]{ 
+h2[title="This is a system tiddler"]{ 
     display: none; 
 }
 ```
