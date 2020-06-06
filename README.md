@@ -3,9 +3,10 @@
 ### Add new tab “Start Here”
 1. Create a new tiddler named Start
 2. Add a tag called **$:/tags/SideBar** to this tiddler
-3. In the contents field for this tiddler add following — 
+3. In the contents field for this tiddler add one of the following — 
     `<<toc-selective-expandable ‘Start’ sort[title]>>`
-4. Add __Start__ tag to all the tiddlers that you want to get listed in the __Start here tab__
+    `<<list-links "[tag[Start]]">>`
+4. Add __Start__ tag to all the tiddlers that you want to get listed in the __Start__ tab.
 
 ### Add backlinks to each tiddler 
 1. Create a new tiddler called “Note Ref”
