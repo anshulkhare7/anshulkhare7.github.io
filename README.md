@@ -23,7 +23,7 @@
 ### Remove unwanted buttons from the published version
 1. Click on _control panel_ button in side bar.
 2. Make sure the control panel tiddler remains open.
-3. Go to `Appearance -> Toolbars -> Page Toolbar` — uncheck new tiddler and control panel. Check close all, and refresh
+3. Go to `Appearance -> Toolbars -> Page Toolbar` — uncheck **new tiddler** and **control panel**. Check **close all**, and **refresh**
 4. Click on _More_ tab in the side bar. Go to _Shadows_
 5. Find **$:/core/ui/SideBar/Recent** Remove the tag and save.
 6. Find **$:/core/ui/SideBar/Tools** Remove the tag and save.
