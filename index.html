@@ -161,8 +161,6 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh</li>
 
-<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
-
 <li>$:/config/Plugins/Disabled/$:/plugins/rmnvsl/krystal</li>
 
 <li>$:/config/Plugins/Disabled/$:/plugins/tobibeer/appear</li>
@@ -182,6 +180,8 @@ Error message and password prompt
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions</li>
 
 <li>$:/core</li>
+
+<li>$:/core/ui/MoreSideBar/Recent</li>
 
 <li>$:/core/ui/SideBar/More</li>
 
@@ -349,7 +349,7 @@ Error message and password prompt
 
 <li>The Orangutan Method</li>
 
-<li>Thoughts on Retirement</li>
+<li>Thoughts on Starting up</li>
 
 <li>Two Great Questions</li>
 
@@ -387,31 +387,28 @@ Error message and password prompt
 <div created="20200527074429500" modified="20200527074434000" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
 </div>
-<div created="20200607070014998" modified="20200607070014998" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
+<div created="20200607091105781" modified="20200607091105781" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
 <pre>hide</pre>
 </div>
-<div created="20200607070014613" modified="20200607070014614" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<div created="20200607091105269" modified="20200607091105269" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
 <pre>hide</pre>
 </div>
-<div created="20200607070015686" modified="20200607070015686" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
+<div created="20200607091250018" modified="20200607091250018" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
 <pre>hide</pre>
 </div>
 <div created="20200604182831497" modified="20200604182833697" title="$:/config/Navigation/UpdateHistory">
 <pre>no</pre>
 </div>
-<div created="20200607065806531" modified="20200607065806531" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<div created="20200607091053717" modified="20200607091053717" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div created="20200607065808561" modified="20200607065808561" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div created="20200607091057309" modified="20200607091057309" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
-<div created="20200607065807626" modified="20200607065807626" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div created="20200607091054813" modified="20200607091054813" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div created="20200606182915503" modified="20200606182915503" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
-<pre>show</pre>
-</div>
-<div created="20200607070110969" modified="20200607070144425" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>show</pre>
 </div>
 <div created="20200606182145400" modified="20200606182145400" title="$:/config/Plugins/Disabled/$:/plugins/rmnvsl/krystal">
@@ -435,10 +432,10 @@ Error message and password prompt
 <div created="20200604182756408" modified="20200604182927738" title="$:/config/Toolbar/Icons">
 <pre>yes</pre>
 </div>
-<div created="20200607070012333" modified="20200607070012333" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20200607091252321" modified="20200607091252321" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20200607070011024" modified="20200607070011024" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div created="20200607091253865" modified="20200607091253865" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
@@ -9814,16 +9811,20 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20200607065954735" modified="20200607065954735" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200607091131617" modified="20200607091131617" title="$:/core/ui/MoreSideBar/Recent">
+<pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
+</pre>
+</div>
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20200607091231818" modified="20200607091231818" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical tc-sidebar-tabs-more&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200607065934255" modified="20200607065934255" title="$:/core/ui/SideBar/Recent">
+<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200607091210258" modified="20200607091210258" title="$:/core/ui/SideBar/Recent">
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200607065944867" modified="20200607065944867" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200607091219998" modified="20200607091219998" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -11042,7 +11043,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200601144444932" modified="20200605122152156" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20200602171354240" modified="20200607065803569" title="$:/state/tab--1963855381">
+<div created="20200602171354240" modified="20200607091047548" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20200527074355500" modified="20200602171346352" title="$:/state/tab--2112689675">
@@ -11054,7 +11055,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200527074400500" modified="20200527074400500" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20200527074318200" modified="20200607070100031" title="$:/state/tab-1749438307">
+<div created="20200527074318200" modified="20200607091046035" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200527112533087" modified="20200602171138156" title="$:/state/tab-2065006209">
@@ -11063,14 +11064,14 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200530204017733" modified="20200604182621108" title="$:/state/tab/moresidebar-1645249547">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200606184938189" modified="20200607065908387" title="$:/state/tab/moresidebar-1850697562">
+<div created="20200606184938189" modified="20200607091115445" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20200606182320203" modified="20200607065902093" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20200606182320203" modified="20200607091320402" title="$:/state/tab/sidebar--595412856">
+<pre>Start Here</pre>
 </div>
-<div created="20200607065804361" modified="20200607070108360" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+<div created="20200607091051980" modified="20200607091302825" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div created="20200607061549780" modified="20200607061549780" title="$:/state/tag-manager/Books">
 <pre>open</pre>
@@ -11142,7 +11143,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200531060300112" modified="20200607064952842" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
-<div created="20200531145027359" modified="20200607062824727" title="$:/temp/search">
+<div created="20200531145027359" modified="20200607090737854" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200529190954789" modified="20200602171627730" title="$:/temp/tobibeer/preview-1-tiddler">
@@ -11266,18 +11267,20 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200604191408624" modified="20200607065113549" tags="writing" title="A Reader and a Writer's Tug of War">
 <pre>A writer and reader are like opponents in a competition. A reader subconsciously wants to stop reading the writing and a writer wants to first grab hold the reader and keep flooring him in between. When a reader has opened a writer’s work for reading the writer has got his foot in the door. Now it’s writer’s skill in keeping the reader engaged and floor him frequently.</pre>
 </div>
-<div created="20200527114303045" modified="20200607065510954" tags="Start" title="About these notes">
+<div created="20200527114303045" modified="20200607090716256" tags="Start" title="About these notes">
 <pre>Hi! I’m Anshul Khare. You’ve stumbled upon my working notes. They’re kind of strange, so some context might help.
 
-Inspired by [[Andy Matuschak's notes|https://notes.andymatuschak.org/]], these notes are like a public notebook. It contains ideas and concepts that bounce around in my head and I think some of these may be of interest to others. 
+These notes contain ideas and concepts that bounce around in my head. I've created them mostly for improving my own thinking and learning. They’re like my thinking environment — my ''Mind Garden'' if you will.
 
-I've created these notes mostly for improving my own thinking and learning. They’re like my thinking environment — my ''Mind Garden'' if you will.
+Inspired by [[Andy Matuschak's notes|https://notes.andymatuschak.org/]], I am making my notes public, hoping that these may be of interest to others. 
 
-If a note seems confusing or under-explained, it’s probably because I didn’t write it for you! Sorry—that’s sort of an essential tension of this experiment.
+Many of these notes might appear as half baked ideas. That’s sort of an essential tension of this experiment.
 
-The best way to browse through these notes is to follow the links but at this stage there aren't that many connections so you may want to click on ''Start Here'' on the sidebar.
+I also hope that they ignite interesting public conversations. So feel free to reach out to me if you agree/disagree or have more context/nuance to offer.
 
-Ideally, reading these notes should be similar to how we surf through ideas in our way, i.e, there's no Table of Content. Just hop from one idea to another and allow yourself to be surprised by an unintended connection.
+Ideally, reading these notes should be similar to how we surf through ideas inside our head, i.e, there's no Table of Content. Just hop from one idea to another and allow yourself to be surprised by an unintended connection.
+
+The best way to browse through these notes is to follow the links but at this stage there aren't that many connections so you may want to [[Start Here|Start Here]] (on mobile screen see the top navigation bar).
 
 Like my brain — this digital mind garden is also a work in progress.
 
@@ -11310,7 +11313,7 @@ This way, my reading feeds into my writing skills. When I notice that I haven't 
 
 This is how [[Benjamin Franklin practiced.|Practice like Benjamin Franklin]]</pre>
 </div>
-<div created="20200602181649146" modified="20200606185949666" tags="Start" title="Best Time to Quit Your Job">
+<div created="20200602181649146" modified="20200607082154625" title="Best Time to Quit Your Job">
 <pre>For all of the most important things, the timing always sucks. 
 
 Waiting for a good time to quit your job? 
@@ -11598,7 +11601,7 @@ That essentially makes us blind for things which lie between those two focal poi
 
 An evolutionary optimization which shows up in other aspects of our brain's functioning like [[Manufactured Memories|Manufactured Memories]]</pre>
 </div>
-<div created="20200606182712857" list-before="$:/core/ui/SideBar/Open" modified="20200606185750909" tags="$:/tags/SideBar" title="Start Here">
+<div created="20200606182712857" list-before="$:/core/ui/SideBar/Open" modified="20200607090312264" tags="$:/tags/SideBar" title="Start Here">
 <pre>&lt;&lt;list-links &quot;[tag[Start]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200602183939748" modified="20200602185018094" tags="stories strategy" title="Taking on P&amp;G With First Mover Advantage">
@@ -11633,10 +11636,11 @@ The idea is to talk out loud about your problem. Talking involves a different se
 
 Of course, a more effective way is to explain the problem to someone little more intelligent and responsive than an ape — another human maybe.</pre>
 </div>
-<div created="20200607063029052" modified="20200607063148748" tags="Start" title="Thoughts on Retirement">
+<div created="20200607063029052" modified="20200607082147315" tags="Start" title="Thoughts on Starting up">
 <pre>* [[Security is superstition|Security is Superstition]]
 * [[Charlie Munger on Retirement|Preferred System of Retirement]]
-</pre>
+* Your salary is the bribe they give you to forget your dreams.
+* [[Best time to quit your job|Best Time to Quit Your Job]]</pre>
 </div>
 <div created="20200531063023592" modified="20200607064855648" tags="Start" title="Two Great Questions">
 <pre>1. What‘s something that seems obvious within your profession, but the general public seems to misunderstand?
