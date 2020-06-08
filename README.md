@@ -21,20 +21,28 @@
     ```
 
 ### Remove unwanted buttons from the published version
-1. Click on _control panel_ button in side bar.
-2. Make sure the control panel tiddler remains open.
-3. Go to `Appearance -> Toolbars -> Page Toolbar` — uncheck **new tiddler** and **control panel**. Check **close all**, and **refresh**
-4. Click on _More_ tab in the side bar. Go to _Shadows_
-5. Find **$:/core/ui/SideBar/Recent** Remove the tag and save.
-6. Find **$:/core/ui/SideBar/Tools** Remove the tag and save.
-7. Find **$:/core/ui/SideBar/More** Remove the tag and save.
-8. Go to `Appearance -> Toolbars -> View Toolbar` — uncheck **more** and **edit**
-9. Go to `Appearance -> Toolbars -> Edit Toolbar` — uncheck **delete**, **cancel** and **ok**
+1. Create a new tiddler named **CustomCSS**. Add tag called **$:/tags/Stylesheet**.
+2. Add following css in this custom tiddler
+```
+.tc-tags-wrapper,
+.tc-subtitle{
+    display: none;
+}  
+```
+3. Click on _control panel_ button in side bar.
+4. Make sure the control panel tiddler remains open.
+5. Go to `Appearance -> Toolbars -> Page Toolbar` — uncheck **new tiddler** and **control panel**. Check **close all**, and **refresh**
+6. Click on _More_ tab in the side bar. Go to _Shadows_
+7. Find **$:/core/ui/SideBar/Recent** Remove the tag and save.
+8. Find **$:/core/ui/SideBar/Tools** Remove the tag and save.
+9. Find **$:/core/ui/SideBar/More** Remove the tag and save.
+10. Go to `Appearance -> Toolbars -> View Toolbar` — uncheck **more** and **edit**
+11. Go to `Appearance -> Toolbars -> Edit Toolbar` — uncheck **delete**, **cancel** and **ok**
 
 ## Steps to remove the edit buttons in Krystal theme
 
 1. Create a new tiddler with name $:/customCSS
-2. Add a tag to this tiddle $:/tags/Stylesheet
+2. Add a tag to this tiddler $:/tags/Stylesheet
 3. Add following css in this custom tiddler
 ```
 .tc-page-controls{
