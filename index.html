@@ -181,8 +181,6 @@ Error message and password prompt
 
 <li>$:/core</li>
 
-<li>$:/core/ui/MoreSideBar/Recent</li>
-
 <li>$:/core/ui/SideBar/More</li>
 
 <li>$:/core/ui/SideBar/Recent</li>
@@ -285,9 +283,13 @@ Error message and password prompt
 
 <li>Best Time to Quit Your Job</li>
 
+<li>Break the Writer's block</li>
+
 <li>Buffett, Gates, and a Game of Dice</li>
 
 <li>Confusion Vs Conclusion</li>
+
+<li>customCSS</li>
 
 <li>Data Visualization in Times of Cholera</li>
 
@@ -295,9 +297,13 @@ Error message and password prompt
 
 <li>Dharma and Outcome</li>
 
+<li>Diffused Mode of Thinking</li>
+
 <li>Don't Join the Navy, Be a Pirate</li>
 
 <li>Follow the Curiosity</li>
+
+<li>Fragility of Worldview</li>
 
 <li>Goal-less Book Reading</li>
 
@@ -307,9 +313,13 @@ Error message and password prompt
 
 <li>Journaling Makes you Better Writer</li>
 
+<li>Learn How to Learn</li>
+
 <li>Low Margins and High ROCE</li>
 
 <li>Manufactured Memories</li>
+
+<li>Mental Models using Anki</li>
 
 <li>Morning Pages</li>
 
@@ -387,25 +397,25 @@ Error message and password prompt
 <div created="20200527074429500" modified="20200527074434000" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
 </div>
-<div created="20200607091105781" modified="20200607091105781" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
+<div created="20200608091049671" modified="20200608091049671" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
 <pre>hide</pre>
 </div>
-<div created="20200607091105269" modified="20200607091105269" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<div created="20200608091049320" modified="20200608091049320" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
 <pre>hide</pre>
 </div>
-<div created="20200607091250018" modified="20200607091250018" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
+<div created="20200608091050215" modified="20200608091050215" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
 <pre>hide</pre>
 </div>
 <div created="20200604182831497" modified="20200604182833697" title="$:/config/Navigation/UpdateHistory">
 <pre>no</pre>
 </div>
-<div created="20200607091053717" modified="20200607091053717" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<div created="20200608090948726" modified="20200608090948726" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div created="20200607091057309" modified="20200607091057309" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div created="20200608090951125" modified="20200608090951125" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
-<div created="20200607091054813" modified="20200607091054813" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div created="20200608090949589" modified="20200608090949589" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div created="20200606182915503" modified="20200606182915503" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
@@ -432,10 +442,10 @@ Error message and password prompt
 <div created="20200604182756408" modified="20200604182927738" title="$:/config/Toolbar/Icons">
 <pre>yes</pre>
 </div>
-<div created="20200607091252321" modified="20200607091252321" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20200608091055783" modified="20200608091055783" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20200607091253865" modified="20200607091253865" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div created="20200608091056511" modified="20200608091056511" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
@@ -9811,20 +9821,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200607091131617" modified="20200607091131617" title="$:/core/ui/MoreSideBar/Recent">
-<pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
-</pre>
-</div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20200607091231818" modified="20200607091231818" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20200608091041361" modified="20200608091041361" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical tc-sidebar-tabs-more&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200607091210258" modified="20200607091210258" title="$:/core/ui/SideBar/Recent">
+<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200608091014080" modified="20200608091014080" title="$:/core/ui/SideBar/Recent">
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200607091219998" modified="20200607091219998" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200608091023731" modified="20200608091023731" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -11043,7 +11049,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200601144444932" modified="20200605122152156" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20200602171354240" modified="20200607091047548" title="$:/state/tab--1963855381">
+<div created="20200602171354240" modified="20200608091047207" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20200527074355500" modified="20200602171346352" title="$:/state/tab--2112689675">
@@ -11055,7 +11061,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200527074400500" modified="20200527074400500" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20200527074318200" modified="20200607091046035" title="$:/state/tab-1749438307">
+<div created="20200527074318200" modified="20200608091045854" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200527112533087" modified="20200602171138156" title="$:/state/tab-2065006209">
@@ -11064,14 +11070,14 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200530204017733" modified="20200604182621108" title="$:/state/tab/moresidebar-1645249547">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200606184938189" modified="20200607091115445" title="$:/state/tab/moresidebar-1850697562">
+<div created="20200606184938189" modified="20200608090959126" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20200606182320203" modified="20200607091320402" title="$:/state/tab/sidebar--595412856">
-<pre>Start Here</pre>
+<div created="20200606182320203" modified="20200608090954741" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div created="20200607091051980" modified="20200607091302825" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+<div created="20200608091048110" modified="20200608091059391" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/EditorToolbar</pre>
 </div>
 <div created="20200607061549780" modified="20200607061549780" title="$:/state/tag-manager/Books">
 <pre>open</pre>
@@ -11079,7 +11085,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="[[About these notes]]" title="$:/StoryList">
+<div created="20200608090751235" list="$:/ControlPanel [[About these notes]]" modified="20200608091031223" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11140,7 +11146,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div created="20200531060300112" modified="20200607064952842" title="$:/temp/NewTagName">
+<div created="20200531060300112" modified="20200608090549169" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div created="20200531145027359" modified="20200607090737854" title="$:/temp/search">
@@ -11330,6 +11336,13 @@ If it’s important to you and you want to do it ''eventually,'' just do it and 
 
 Career Advice by Tim Ferriss</pre>
 </div>
+<div created="20200608085552741" modified="20200608085624963" tags="" title="Break the Writer's block">
+<pre>Always have some inspirational or thoughtful quotes ready. These act as ice breakers. They get your thoughts flowing immediately. You will never have to stare at an empty paper.
+
+Great quotes are great catalysts to start your train of thoughts moving.
+
+As you follow that train of thoughts, it will open new doors, lead you down to new paths, spark new thoughts and novel lines of thinking.</pre>
+</div>
 <div created="20200607063255359" modified="20200607064803726" tags="stories Start" title="Buffett, Gates, and a Game of Dice">
 <pre>In business, [[first mover advantage|Taking on P&amp;G With First Mover Advantage]] is often given a lot attention.
 
@@ -11366,6 +11379,12 @@ If you aren’t confused, you haven’t given it sufficient thought.
 
 Experiment with a toddler. Say a word that the child hasn’t heard before. It grabs her attention. When our brain encounters something unfamiliar, something which it doesn’t understand, it becomes attentive. It’s perhaps evolutionary mechanism.</pre>
 </div>
+<div created="20200608090529845" modified="20200608090937808" tags="$:/tags/Stylesheet" title="customCSS">
+<pre>.tc-tags-wrapper,
+.tc-subtitle{
+display: none;
+}</pre>
+</div>
 <div created="20200604144036746" modified="20200606190058085" tags="stories Start" title="Data Visualization in Times of Cholera">
 <pre>John Snow was a doctor during the 1850s. Cholera came to London in 1832, and every four or five years, an outbreak would take between 10,000 and 20,000 lives. Here again, the dominant theory was that miasma was causing the death. There was indeed a stench hanging over London those days. Sewage infrastructure was still a thing of the future and most houses had a cesspool of human waste in their basement. 
 
@@ -11397,6 +11416,9 @@ He said his grandmother helped it put in perspective for him by saying, 'trying 
 
 Source: [[Chetan Parikh's Blog|http://capitalideasonline.com/wordpress/thinking-in-systems/]]</pre>
 </div>
+<div created="20200608084614869" modified="20200608084656236" tags="" title="Diffused Mode of Thinking">
+<pre>[[Diffused Mode Vs Focused Mode|https://fs.blog/2019/10/focused-diffuse-thinking/]]</pre>
+</div>
 <div created="20200604150326418" modified="20200607061120876" tags="stories Start" title="Don't Join the Navy, Be a Pirate">
 <pre>In the early 1980s, Steve Jobs leased a building behind the 
 Good Earth restaurant in Silicon Valley, stocked it with twenty 
@@ -11421,6 +11443,14 @@ Curiosity has its own reason for existence. One cannot help but be in awe when h
 It is enough if one tries merely to comprehend a little of this mystery each day.
 
 ~ Albert Einstein</pre>
+</div>
+<div created="20200608085849218" modified="20200608090001496" tags="Start" title="Fragility of Worldview">
+<pre>Excerpt from Scott Adam's book [[Win Bigly|https://amzn.to/2AKK5lg]] — 
+
+&lt;&lt;&lt;
+Enlightenment can be risky business. When your old worldview falls apart, it can trigger all kinds of irrational behavior before your brain rewrites the movie in your head to make it consistent with your new worldview. We all have movies in our heads that we believe are accurate views of reality. And those movies are very different. Normally we don’t notice the differences in our personal movies, or we don’t care.
+&lt;&lt;&lt;
+</pre>
 </div>
 <div created="20200531070226473" modified="20200607061647198" tags="Start books" title="Goal-less Book Reading">
 <pre>Reading isn't a race. Not every book you start needs to be finished. If you're dragging your feet to complete the book, you're doing it wrong.
@@ -11466,6 +11496,19 @@ In journaling you’re trying to give a formal voice to your thoughts.
 
 In this attempt, you slowly become better at describing things in simple language. </pre>
 </div>
+<div created="20200608070843319" modified="20200608084716102" tags="Start" title="Learn How to Learn">
+<pre>For a life long learning, the first and most crucial skill to master is &quot;Learning how to Learn.&quot;
+
+A few methods for mastering meta-learning.
+
+* Find a system to retain what you learn e.g. [[Spaced repetition system|https://ncase.me/remember/]]. Use technology like [[Anki|Mental Models using Anki]] for SRS.
+* [[Pomodoro technique.|https://bigthink.com/videos/learn-how-to-learn-better-with-the-pomodoro-technique]]
+* Chunking.
+* Deliberately engaging your brain in [[Diffused mode of thinking |Diffused Mode of Thinking]]
+* [[Zettelkasten method.|https://medium.com/@mosessampaul/zettelkasten-method-of-knowledge-management-the-second-brain-218108942514]]
+* [[The Spiral approach|http://www.av8n.com/physics/spiral-approach.htm]] to learning.
+* Teach what you want to learn.[[ Feynman's technique.  |https://www.youtube.com/watch?v=FrNqSLPaZLc]]</pre>
+</div>
 <div created="20200602184410637" modified="20200607062349597" tags="stories investing Start" title="Low Margins and High ROCE">
 <pre>It was hot and dusty, a typical summer’s day in a small town in Uttar Pradesh. As a young sales manager at Hindustan Unilever, I was on my mandatory market visit. Today was the wholesale beat. Most of the wholesalers were working on a wafer-thin margin. Their way of working seemed to defy everything I had learnt at IIM (Indian Institute of Management) Ahmedabad. I sat on an empty oil tin, sipping a cup of tea made mostly of milk and sugar. I noticed a fifteen-year-old boy manning the store in his father’s absence. I was in a good mood, so I decided to give him some commercial advice. 
 
@@ -11489,6 +11532,11 @@ In this attempt to construct a story, a lot of nonessential details are created/
 [[List of Memory Biases |https://en.wikipedia.org/wiki/List_of_memory_biases]]
 
 [[Elizabeth Loftus, Tedtalk, How Reliable is Your Memory|https://www.ted.com/talks/elizabeth_loftus_how_reliable_is_your_memory?language=en]]</pre>
+</div>
+<div created="20200608071919688" modified="20200608081821378" tags="" title="Mental Models using Anki">
+<pre>You want the important mental models to be readily available. 
+
+Use [[this Anki deck|https://ankiweb.net/shared/info/1729819997]] to learn 100 important mentals models.</pre>
 </div>
 <div created="20200605105831336" modified="20200606185856872" tags="" title="Morning Pages">
 <pre>Morning Pages is a cathartic practice recommended by Julia Cameron in her book [[The Artist's Way.|https://amzn.to/2ByDYAR]] 
@@ -11535,11 +11583,11 @@ For techniques there may be a million and then some. But principles are few.
 Principles produce techniques in an instant. The man who grasps principles can successfully select his own methods. The man who tries methods, ignoring principles, is sure to have trouble.
 </pre>
 </div>
-<div created="20200607053118858" modified="20200607060927984" tags="[[problem solving]] Start" title="Problem Solving Hacks">
+<div created="20200607053118858" modified="20200608084704532" tags="[[problem solving]] Start" title="Problem Solving Hacks">
 <pre>* [[Reframe the question.|Reframe the Question]]
 * Use [[The Orangutan Method|The Orangutan Method]] or do some [[Rubber Ducking|Rubber Ducking]]
 * [[Take a walk|Walking Boosts Creativity]] or engage in a short workout.
-* Allow your brain to enter the [[Diffused Mode of Thinking.|https://fs.blog/2019/10/focused-diffuse-thinking/]] </pre>
+* Allow your brain to enter the [[Diffused Mode of Thinking.|Diffused Mode of Thinking]] </pre>
 </div>
 <div created="20200601143550255" modified="20200607052305713" tags="[[Elon Musk]]" title="Reasoning from First Principles">
 <pre>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NV3sBlRgzTI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
@@ -11700,12 +11748,13 @@ The distinction between [[System Model and Interaction Model|https://www.youtube
 <div created="20200604191049462" modified="20200604191328509" tags="writing" title="Write Like Music">
 <pre>[img [https://notes-public-images.s3.ap-south-1.amazonaws.com/WriteLikeMusic.jpg]]</pre>
 </div>
-<div created="20200607061817538" modified="20200607065106357" tags="writing Start" title="Writing Hacks">
+<div created="20200607061817538" modified="20200608085628947" tags="writing Start" title="Writing Hacks">
 <pre>* [[Journal everyday.|Journaling Makes you Better Writer]]
 * Take a long walk. [[Walking boosts creativity.|Walking Boosts Creativity]]
 * Vary sentence lengths. [[Write like music.|Write Like Music]]
 * [[Deliberate Practice|Become a Better Writer with Deliberate Practice]]
-* Remember, you're in [[a war with the reader.|A Reader and a Writer's Tug of War]]</pre>
+* Remember, you're in [[a war with the reader.|A Reader and a Writer's Tug of War]]
+* [[Break the writer's block.|Break the Writer's block]]</pre>
 </div>
 
 
