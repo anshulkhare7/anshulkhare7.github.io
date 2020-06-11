@@ -15,7 +15,7 @@
     ```
     <$list filter='[is[current]backlinks[]limit[1]]' variable=dummy>
         <hr>
-        Back Reference: <$list filter='[<currentTiddler>backlinks[]butlast[]]'><$link><$view field="title"/></$link>,</$list>
+        <strong>Back Reference<strong><br/><$list filter='[<currentTiddler>backlinks[]butlast[]]'><$link><$view field="title"/></$link><br/></$list>
         <$list filter='[<currentTiddler>backlinks[]last[]]'><$link><$view field="title"/></$link></$list>
     </$list>
     ```
