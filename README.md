@@ -28,6 +28,18 @@
 .tc-subtitle{
     display: none;
 }  
+
+.tc-popup-handle{
+	width: 50%
+}
+
+.tc-tab-buttons{
+	font-size: 1.5em
+}
+
+button[title=“Save changesXYX”]{
+	display:none;
+}
 ```
 3. Click on _control panel_ button in side bar.
 4. Make sure the control panel tiddler remains open.
