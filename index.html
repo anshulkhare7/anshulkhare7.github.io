@@ -4,16 +4,6 @@
 <!-- saved from url=(0021)https://tiddlywiki.com -->
 <html lang="en-GB">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132755427-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-132755427-3');
-</script>
-
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <!--~~ Raw markup for the top of the head section ~~-->
 
@@ -153,6 +143,8 @@ Error message and password prompt
 
 <li>$:/config/DefaultMoreSidebarTab</li>
 
+<li>$:/config/DefaultSidebarTab</li>
+
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
 
 <li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel</li>
@@ -188,6 +180,8 @@ Error message and password prompt
 <li>$:/config/Toolbar/ButtonClass</li>
 
 <li>$:/config/Toolbar/Icons</li>
+
+<li>$:/config/Toolbar/Text</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
 
@@ -295,6 +289,8 @@ Error message and password prompt
 
 <li>Analogy Vs First Principles</li>
 
+<li>Baker's Dozen</li>
+
 <li>Being Less Wrong</li>
 
 <li>Best Time to Quit Your Job</li>
@@ -302,6 +298,10 @@ Error message and password prompt
 <li>Break the Writer's block</li>
 
 <li>Buffett, Gates, and a Game of Dice</li>
+
+<li>Chunking</li>
+
+<li>Competition is for Losers</li>
 
 <li>Confusion Vs Conclusion</li>
 
@@ -327,6 +327,8 @@ Error message and password prompt
 
 <li>How to Design a Room</li>
 
+<li>How to Think Better</li>
+
 <li>How to Write Better</li>
 
 <li>Implementing Inversion in Life</li>
@@ -341,6 +343,8 @@ Error message and password prompt
 
 <li>Low Margins and High ROCE</li>
 
+<li>Make Your Readers Think</li>
+
 <li>Manufactured Memories</li>
 
 <li>Mental Models using Anki</li>
@@ -352,6 +356,8 @@ Error message and password prompt
 <li>Numbers Needed to Treat</li>
 
 <li>One Page Personal Finance Advice</li>
+
+<li>Performing Thought Experiments</li>
 
 <li>Power of Compounding</li>
 
@@ -395,8 +401,6 @@ Error message and password prompt
 
 <li>The Orangutan Method</li>
 
-<li>Thinking Hacks</li>
-
 <li>Thoughts on Freedom</li>
 
 <li>To Learn, Start Teaching</li>
@@ -434,16 +438,19 @@ Error message and password prompt
 <div created="20200604183037004" modified="20200604183037004" title="$:/config/DefaultMoreSidebarTab">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
+<div created="20200613202045432" modified="20200613202045432" title="$:/config/DefaultSidebarTab">
+<pre>Start Here</pre>
+</div>
 <div created="20200527074429500" modified="20200527074434000" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
 </div>
-<div created="20200611113934988" modified="20200611113934988" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
+<div created="20200613202615585" modified="20200613202615585" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
 <pre>hide</pre>
 </div>
-<div created="20200611113934603" modified="20200611113934603" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<div created="20200613202615200" modified="20200613202615200" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
 <pre>hide</pre>
 </div>
-<div created="20200611114301066" modified="20200611114301066" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
+<div created="20200613202929577" modified="20200613202929577" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/save">
 <pre>hide</pre>
 </div>
 <div created="20200611070516239" modified="20200611070516239" title="$:/config/Navigation/UpdateAddressBar">
@@ -452,13 +459,13 @@ Error message and password prompt
 <div created="20200604182831497" modified="20200604182833697" title="$:/config/Navigation/UpdateHistory">
 <pre>no</pre>
 </div>
-<div created="20200611113938580" modified="20200611113938580" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<div created="20200613202351867" modified="20200613202351867" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div created="20200611114257931" modified="20200611114257931" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div created="20200613202623033" modified="20200613202927201" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
-<div created="20200611113940028" modified="20200611114254763" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div created="20200613202619297" modified="20200613202619297" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div created="20200606182915503" modified="20200606182915503" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
@@ -479,19 +486,22 @@ Error message and password prompt
 <div created="20200607052245238" modified="20200607052245238" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
 </div>
-<div created="20200604182713369" modified="20200604183114030" title="$:/config/TextEditor/EnableToolbar">
+<div created="20200604182713369" modified="20200613202342475" title="$:/config/TextEditor/EnableToolbar">
 <pre>yes</pre>
 </div>
-<div created="20200604183131761" modified="20200604183143711" title="$:/config/Toolbar/ButtonClass">
-<pre>tc-btn-invisible</pre>
+<div created="20200604183131761" modified="20200613202312325" title="$:/config/Toolbar/ButtonClass">
+<pre>tc-btn-boxed</pre>
 </div>
 <div created="20200604182756408" modified="20200604182927738" title="$:/config/Toolbar/Icons">
 <pre>yes</pre>
 </div>
-<div created="20200611114304539" modified="20200611114304539" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20200613202329570" modified="20200613202344987" title="$:/config/Toolbar/Text">
+<pre>no</pre>
+</div>
+<div created="20200613202931737" modified="20200613202931737" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20200611113933140" modified="20200611113933140" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div created="20200613202613882" modified="20200613202613882" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
@@ -9867,16 +9877,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20200611114032079" modified="20200611114032079" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20200613202713797" modified="20200613202917028" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical tc-sidebar-tabs-more&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200611114014198" modified="20200611114014198" title="$:/core/ui/SideBar/Recent">
+<div caption="{{$:/language/SideBar/Recent/Caption}}" created="20200613202651309" modified="20200613202651309" title="$:/core/ui/SideBar/Recent">
 <pre>&lt;$macrocall $name=&quot;timeline&quot; format={{$:/language/RecentChanges/DateFormat}}/&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200611114024242" modified="20200611114024242" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20200613202705893" modified="20200613202908113" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -11095,7 +11105,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200601144444932" modified="20200605122152156" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20200602171354240" modified="20200611113931571" title="$:/state/tab--1963855381">
+<div created="20200602171354240" modified="20200613202611848" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20200527074355500" modified="20200602171346352" title="$:/state/tab--2112689675">
@@ -11107,22 +11117,22 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200527074400500" modified="20200527074400500" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20200527074318200" modified="20200611113929564" title="$:/state/tab-1749438307">
+<div created="20200527074318200" modified="20200613202610624" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200527112533087" modified="20200602171138156" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
 </div>
-<div created="20200530204017733" modified="20200604182621108" title="$:/state/tab/moresidebar-1645249547">
-<pre>$:/core/ui/MoreSideBar/All</pre>
-</div>
-<div created="20200606184938189" modified="20200611113959268" title="$:/state/tab/moresidebar-1850697562">
+<div created="20200530204017733" modified="20200613202748508" title="$:/state/tab/moresidebar-1645249547">
 <pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20200606182320203" modified="20200611113957956" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20200606184938189" modified="20200613202635850" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Shadows</pre>
 </div>
-<div created="20200611113933756" modified="20200611114303043" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<div created="20200606182320203" modified="20200613202941585" title="$:/state/tab/sidebar--595412856">
+<pre>Start Here</pre>
+</div>
+<div created="20200613202614417" modified="20200613202930177" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div created="20200607061549780" modified="20200607061549780" title="$:/state/tag-manager/Books">
@@ -11131,7 +11141,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200611113927748" list="$:/ControlPanel" modified="20200611114026926" title="$:/StoryList">
+<div created="20200613202841001" list="" modified="20200613202859852" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11192,10 +11202,10 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div created="20200531060300112" modified="20200611114110362" title="$:/temp/NewTagName">
+<div created="20200531060300112" modified="20200613202848756" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
-<div created="20200531145027359" modified="20200611114058210" title="$:/temp/search">
+<div created="20200531145027359" modified="20200613202627915" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200529190954789" modified="20200602171627730" title="$:/temp/tobibeer/preview-1-tiddler">
@@ -11319,7 +11329,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200604191408624" modified="20200607065113549" tags="writing" title="A Reader and a Writer's Tug of War">
 <pre>A writer and reader are like opponents in a competition. A reader subconsciously wants to stop reading the writing and a writer wants to first grab hold the reader and keep flooring him in between. When a reader has opened a writer’s work for reading the writer has got his foot in the door. Now it’s writer’s skill in keeping the reader engaged and floor him frequently.</pre>
 </div>
-<div created="20200527114303045" modified="20200607090716256" tags="Start" title="About these notes">
+<div created="20200527114303045" modified="20200612072722291" tags="Start" title="About these notes">
 <pre>Hi! I’m Anshul Khare. You’ve stumbled upon my working notes. They’re kind of strange, so some context might help.
 
 These notes contain ideas and concepts that bounce around in my head. I've created them mostly for improving my own thinking and learning. They’re like my thinking environment — my ''Mind Garden'' if you will.
@@ -11338,7 +11348,7 @@ Like my brain — this digital mind garden is also a work in progress.
 
 Thanks for dropping by.
 
-You can connect with me on [[Twitter|https://twitter.com/anshul81]] or visit [[My blog|https://anshulkhare.in]]
+You can connect with me on [[Twitter|https://twitter.com/_anshulkhare]] or visit [[My blog|https://anshulkhare.in]]
 
 &lt;hr&gt;
 I use [[TiddlyWiki|https://tiddlywiki.com/static/TiddlyWiki.html]] to build these notes.
@@ -11369,7 +11379,16 @@ In the case of reasoning from the  first principle, you know the concept beforeh
 
 [[Source|https://medium.com/@ankurlemarc/ideation-using-analogy-but-reasoning-using-first-principle-e0546ed686f5]]</pre>
 </div>
-<div created="20200611094102853" modified="20200611094549482" tags="[[Elon Musk]]" title="Being Less Wrong">
+<div created="20200613114152836" modified="20200613115837252" tags="Start" title="Baker's Dozen">
+<pre>In the 1260s, British breadmakers were notorious for shorting customers with skimpy loaves. King Henry III was so irked by the problem that he implemented a new law to standardize the weight of a loaf—selling puny loaves could result in beatings or jail time. Since bakers wanted to stay on the right side of the law, one common trick was to give 13 loaves to any customer buying a dozen. Even if the loaves were light, the extra would cover the shortfall. 
+
+So, the next time you get the gift of an extra doughnut added to your dozen, thank crooked 13th-century bakers for the bonus treat. 
+
+The idea of Baker's Dozen is often used as a way to delight the customers by offering them an unexpected gift. 
+
+If you run a hotel, leave a chocolate on the bed. If you run a bakery, give your customers one extra bagel. If you're writing 5 ideas for your readers, share an extra idea.</pre>
+</div>
+<div created="20200611094102853" modified="20200612055110421" tags="[[Elon Musk]]" title="Being Less Wrong">
 <pre>Elon Musk — 
 
 &lt;&lt;&lt;
@@ -11426,6 +11445,22 @@ The odds were against the first mover in this game. It’s a game designed to fa
 This is unlike the game of tic-tac-toe where the first mover has an edge. In business also there are situations where second mover has advantage where the first mover ends up creating the market, fighting he regulators, building consumer habits, etc and the second mover can simply cruise along. E.g. [[Uber Vs. Lyft.|https://www.entrepreneur.com/article/299215]] and how [[The Devil Operates.|The Devil and the Second Mover Advantage]]
  </pre>
 </div>
+<div created="20200613200852012" modified="20200613201357121" title="Chunking">
+<pre>The application of remembered chunks of knowledge to problems at hand is called chunking.
+
+Once you have internalized the low level details, you can chunk that set into a single concept. 
+
+For example, 2x3 at the lowest level is 2+2+2 (or 3+3). But once you know (and remember) that 2x3=6, you can move on to more complex ideas like 6x6=6^2 without having to remind yourself what 6 is composed of.
+
+In other words, if you remember the answer to a question, you have no need to deduce it in the moment, and so your mind is free to deduce more abstract concepts. This is the value of chunking.</pre>
+</div>
+<div created="20200613091024360" modified="20200613092038249" tags="Start" title="Competition is for Losers">
+<pre>Don't copy others. Copying means competing. 
+
+Competition means no profits for anybody, no meaningful differentiation, and a struggle for survival. 
+
+If you work at a for-profit company, work on problems that would not otherwise be solved. If you’re at a non-profit, fix unpopular problems. Life is easier when you don’t compete.</pre>
+</div>
 <div created="20200605135045854" modified="20200606190034876" tags="Start" title="Confusion Vs Conclusion">
 <pre>It isn’t the conclusion that’s most exciting. It’s the confusion. Confusion keeps you on the your toes, keeps your alert, agile and mentally sharp. 
 
@@ -11439,7 +11474,7 @@ If you aren’t confused, you haven’t given it sufficient thought.
 
 Experiment with a toddler. Say a word that the child hasn’t heard before. It grabs her attention. When our brain encounters something unfamiliar, something which it doesn’t understand, it becomes attentive. It’s perhaps evolutionary mechanism.</pre>
 </div>
-<div created="20200611114101271" modified="20200611114237803" tags="$:/tags/Stylesheet" title="customCSS">
+<div created="20200613201947121" modified="20200613202606586" tags="$:/tags/Stylesheet" title="customCSS">
 <pre>.tc-tags-wrapper,
 .tc-subtitle{
     display: none;
@@ -11569,16 +11604,33 @@ The importance of this pattern lies partly in the social atmosphere it creates i
 
 Source: [[A Pattern Language|https://amzn.to/2z4PsLx]]</pre>
 </div>
-<div created="20200607061817538" modified="20200611074119839" tags="writing Start" title="How to Write Better">
+<div created="20200611091601609" modified="20200613084445059" tags="Start" title="How to Think Better">
+<pre>''Use [[Principle of Inversion|Principle of Inversion]]''
+
+# Rather than trying to be right, assume you are wrong and try to be [[less wrong. |Being Less Wrong]]
+# Trying to be right has a tendency to devolve into protecting your beliefs.
+# Trying to be less wrong has a tendency to prompt more questions and intellectual humility.
+
+</pre>
+</div>
+<div created="20200607061817538" modified="20200613085616309" tags="writing Start" title="How to Write Better">
 <pre>* [[Journal everyday.|Journaling Makes you Better Writer]]
 * Take a long walk. [[Walking boosts creativity.|Walking Boosts Creativity]]
 * Vary sentence lengths. [[Write like music.|Write Like Music]]
 * [[Let your reading feed into your writing|Let your reading feed into your writing.]]
 * Remember, you're in [[a war with the reader.|A Reader and a Writer's Tug of War]]
-* [[Break the writer's block.|Break the Writer's block]]</pre>
+* [[Break the writer's block.|Break the Writer's block]]
+* Show, don't tell. 
+&lt;&lt;&lt;
+Don’t tell me the moon is shining; show me the glint of light on broken glass.&lt;br&gt;~ //Anton Chekhov// 
+&lt;&lt;&lt;
+* [[Make your readers think.|Make Your Readers Think]]
+
+
+</pre>
 </div>
-<div created="20200611093749314" modified="20200611094413419" tags="" title="Implementing Inversion in Life">
-<pre>* Avoid stupid behaviour
+<div created="20200611093749314" modified="20200612052941326" tags="" title="Implementing Inversion in Life">
+<pre>* Avoid [[stupid behaviour|https://twitter.com/AwardsDarwin]]
 * Aim at [[being less wrong.|Being Less Wrong]]
 * Instead of to do lists, make ''Not To Do list''. The greatest productivity hack is the ability to say ''No.''
 </pre>
@@ -11607,14 +11659,14 @@ In journaling you’re trying to give a formal voice to your thoughts.
 
 In this attempt, you slowly become better at describing things in simple language. </pre>
 </div>
-<div created="20200608070843319" modified="20200611072247185" tags="Start" title="Learning How to Learn">
+<div created="20200608070843319" modified="20200613200828868" tags="Start" title="Learning How to Learn">
 <pre>For a life long learning, the first and most crucial skill to master is &quot;Learning how to Learn.&quot;
 
 A few methods for mastering meta-learning.
 
 * Find a system to retain what you learn e.g. [[Spaced repetition system|Spaced Repetition System]].
 * [[Pomodoro technique.|https://bigthink.com/videos/learn-how-to-learn-better-with-the-pomodoro-technique]]
-* Chunking.
+* [[Chunking|Chunking]].
 * Deliberately engaging your brain in [[Diffused mode of thinking |Diffused Mode of Thinking]]
 * [[Zettelkasten method.|https://medium.com/@mosessampaul/zettelkasten-method-of-knowledge-management-the-second-brain-218108942514]]
 * Don't worry about finding the best book, course, or teacher. Start anywhere because learning anything deeply follows [[a spiral path|http://www.av8n.com/physics/spiral-approach.htm]].
@@ -11643,6 +11695,18 @@ I was stumped. It was nothing short of an epiphany. What the uneducated young wh
 I will never forget that lesson in my life. Very often you learn from the most unexpected sources. 
 
 Source: [[Stories at Work|https://amzn.to/3eD4abM]]</pre>
+</div>
+<div created="20200613085504005" modified="20200613085637069" tags="writing" title="Make Your Readers Think">
+<pre>!!! Make your readers think
+&lt;&lt;&lt;
+Good writing doesn't succeed or fail on the strength of its ability to persuade. It succeeds or fails on the strength of its ability to engage you, ''to make you think'', to give you a glimpse into someone else's head — even if in the end you conclude that someone else's head is not a place you'd really like to be.&lt;br&gt;//~ Malcolm Gladwell//
+&lt;&lt;&lt;
+
+!!! Make your readers think ''differently''
+&lt;&lt;&lt;
+There are three types of business writing. The first is breaking news. That's what Reuters does — just the facts. The second is analyzing news, or putting those basic facts into context. Think New York Times and Wall Street Journal. The third is taking existing facts and analysis and presenting them in a way that causes reader to ''think differently'' about a topic. That's what I try to do when I write.&lt;br&gt;//~ Morgan Housel//
+&lt;&lt;&lt;
+</pre>
 </div>
 <div created="20200531080258899" modified="20200531081042165" tags="" title="Manufactured Memories">
 <pre>We only remember the main points of an event and then the mind constructs a story to hang those unrelated points in coherent manner (human mind is good in remembering stories but not unrelated facts).
@@ -11690,6 +11754,13 @@ Source: [[YouTube|https://youtu.be/8jPQjjsBbIc?t=500]]</pre>
 * If any of this confuses you, or you have something special going on (retirement, college planning, tax issue), hire a fee-based financial planner, not one who charges you a percentage of your portfolio.
 
 Source: [[Scott Adams|https://www.mattcutts.com/blog/scott-adams-financial-advice/]] </pre>
+</div>
+<div created="20200612054912022" modified="20200612055333708" tags="" title="Performing Thought Experiments">
+<pre>Albert Einstein formulated his theory of relativity mainly with the help of Gedankenexperiment. It’s a German term for thought experiments. 
+
+In a thought experiment, one doesn’t conduct an actual test in the lab but uses imagination and logic to explore problems and generate insights.
+
+</pre>
 </div>
 <div created="20200611090602493" modified="20200611090852396" tags="" title="Power of Compounding">
 <pre>People often overestimate what they can achieve in one year and underestimate what they can accomplish in 10 years.
@@ -11744,11 +11815,14 @@ For techniques there may be a million and then some. But principles are few.
 Principles produce techniques in an instant. The man who grasps principles can successfully select his own methods. The man who tries methods, ignoring principles, is sure to have trouble.
 </pre>
 </div>
-<div created="20200607053118858" modified="20200608084704532" tags="[[problem solving]] Start" title="Problem Solving Hacks">
+<div created="20200607053118858" modified="20200613084445064" tags="[[problem solving]] Start" title="Problem Solving Hacks">
 <pre>* [[Reframe the question.|Reframe the Question]]
 * Use [[The Orangutan Method|The Orangutan Method]] or do some [[Rubber Ducking|Rubber Ducking]]
 * [[Take a walk|Walking Boosts Creativity]] or engage in a short workout.
-* Allow your brain to enter the [[Diffused Mode of Thinking.|Diffused Mode of Thinking]] </pre>
+* Allow your brain to enter the [[Diffused Mode of Thinking.|Diffused Mode of Thinking]] 
+* Learn [[how to think better.|How to Think Better]]
+* [[Perform thought experiments.|Performing Thought Experiments]]
+* Break down the problem. E.g. how would you [[build a Boeing 747 in Bihar state|https://twitter.com/svembu/status/1265886437116981248]]?</pre>
 </div>
 <div created="20200611072948854" modified="20200611073107288" tags="" title="Real wealth is not about money.">
 <pre>Real wealth is:
@@ -11771,10 +11845,10 @@ Source: [[James Clear|https://twitter.com/JamesClear/status/1087392075547664385]
 
 Just by reframing it, you could get important clues.</pre>
 </div>
-<div created="20200602185101090" modified="20200607062926023" tags="stories Start" title="Right Data, Wrong Conclusion">
+<div created="20200602185101090" modified="20200613115654665" tags="stories Start" title="Right Data, Wrong Conclusion">
 <pre>A classic example of drawing wrong conclusions.
 
-In 18th century, when the medical community was still struggling to wrap its head around the disease Diabetes, they had identified one symptom which was consistent among all diabetes patients. 
+In 18th century, when the medical community was still struggling to wrap its head around the disease Diabetes, they had identified one symptom which was consistent among all diabetes patients. Both their blood and urine tasted sweet.
 
 In fact, tasting the urine of the patient for sweetness was the classic diagnostic test for diabetes. 
 
@@ -11875,13 +11949,6 @@ If you enter an orangutan’s cage, give him a banana and talk about the problem
 The idea is to talk out loud about your problem. Talking involves a different set of neurons in your brain which normally don't fire while thinking silently.
 
 Of course, a more effective way is to explain the problem to someone little more intelligent and responsive than an ape — another human maybe.</pre>
-</div>
-<div created="20200611091601609" modified="20200611094239297" tags="Start" title="Thinking Hacks">
-<pre>''Use [[Principle of Inversion|Principle of Inversion]]''
-
-# Rather than trying to be right, assume you are wrong and try to be [[less wrong. |Being Less Wrong]]
-# Trying to be right has a tendency to devolve into protecting your beliefs.
-# Trying to be less wrong has a tendency to prompt more questions and intellectual humility.</pre>
 </div>
 <div created="20200607063029052" modified="20200611073024621" tags="Start" title="Thoughts on Freedom">
 <pre>* [[Security is superstition|Security is Superstition]]
