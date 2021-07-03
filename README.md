@@ -64,33 +64,7 @@ button[title=“Save changesXYX”]{
 <!-- Mailchimp -->
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d34ff0e5be5c185fb82da2048/92b6f8b74ef1a8775f865e0cc.js");</script>
 ```
-## Steps to remove the edit buttons in Krystal theme
 
-1. Create a new tiddler with name $:/customCSS
-2. Add a tag to this tiddler $:/tags/Stylesheet
-3. Add following css in this custom tiddler
-```
-.tc-page-controls{
-    display: none;
-}
+### Adding last updated timestamp
 
-.tc-tags-wrapper{ 
-    display: none;
-}
-
-[title="More actions"]{ 
-    display: none; 
-}
-
-[title="Edit this tiddler"]{ 
-    display: none; 
-}
-
-h2[title="This is a system tiddler"]{ 
-    display: none; 
-}
-```
-4. Go to **More** ($:/core/ui/SideBar/More)
-5. Go to **Shadows** 
-6. Find _$:/plugins/rmnvsl/krystal/headertools_
-7. In this shadow tiddler, add style="display:none" for all the buttons except **All**
+Using [this plugin](https://tiddlywiki.com/static/How%2520to%2520put%2520the%2520last%2520modification%2520date%2520in%2520a%2520banner.html)
